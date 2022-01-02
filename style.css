@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+button {
+    padding: 10px 25px;
+    background-color: #00fff0;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #223047;
+    border-bottom: 1px solid white;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    margin: 15px 0;
+}
+.main_menu{
+    width: 60%;
+    float: left;
+    line-height: 80px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.top_button{
+    width: 12%;
+    float: left;
+    line-height: 80px;
+}
+.top_button button{
+    margin: 0;
+}
+.mobile_bar{
+    width: 8%;
+    float: left;
+    line-height: 80px;
+    margin-top: 5px;
+}
+.hero{
+    width: 100%;
+    height: 700px;
+    background-color: #223047;
+}
+.hero_text{
+    width: 50%;
+    float: left;
+    padding: 150px 150px 100px 100px;
+}
+.hero_text h1{
+    font-size: 40px;
+    color: #fff;
+}
+.hero_text p{
+    color: #97a4be;
+    margin: 50px 0;
+    line-height: 30px;
+}
+.hero_image{
+    width: 50%;
+    float: left;
+}
+.hero_image img{
+    display: block;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+.brand{
+    width: 100%;
+    height: 580px;
+    float: left;
+}
+.brand_top h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #223047;
+    text-align: center;
+}
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #44fff4;
+    width: 5%;
+    margin: 50px auto;
+}
+.brand_service h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: #233148;
+    margin: 15px 0;
+}
+.brand_service p{
+    color: #97a4be;
+    padding: 10px;
+}
+.first_service {
+    margin: 0 10px;
+    width: 22%;
+    float: left;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid rgba(119,116,116,0.20);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.smartphone {
+    width: 100%;
+    float: left;
+    height: 355px;
+}
+.smartphone_solid{
+    width: 50%;
+    float: left;
+    background-color: #223047;
+    height: 355px;
+}
+.smartphone_text{
+    width: 50%;
+    float: left;
+    background-color: #f5f6fa;
+    height: 355px;
+    padding: 60px 250px 0 100px;
+}
+.smartphone_text p{
+    color: #97a4be;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.stable{
+    width: 100%;
+    height: 500px;
+    float: left;
+    padding: 100px 0 100px;
+    background-color: #FFFFFF;
+}
+.stable_text{
+    width: 50%;
+    float: left;
+}
+.stable_text h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #223047;
+    text-align: right;
+    margin: 0 50px 0 100px;
+    
+}
+.stable_text p{
+    margin: 25px 50px 15px 200px;
+    text-align: right;
+    color: #97a4be;
+}
+.stable_btn{
+    text-align: right;
+    margin: 0 40px;
+}
+
+.stable_image{
+    width: 50%;
+    float: left;
+}
+.mobile{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: #FFFFFF;
+}
+.mobile_image{
+    width: 50%;
+    float: left;
+}
+.mobile_image img{
+    margin-top: -25px;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    z-index: 9999;
+}
+.mobile_box{
+    width: 50%;
+    float: left;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px 0 10px;
+}
+.box:hover{
+    background-color: #00fff0;
+    cursor: pointer;
+}
+.box i{
+    font-size: 15px;
+    color: #B8B4B4;
+    margin-right: 10px;
+}
+.box h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #233148;
+    text-align: left;
+}
+.box p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    padding: 15px 50px 15px 25px;
+    font-weight: 500;
+    color: #223047;
+    text-align: left;
+}
+.everything{
+    width: 100%;
+    margin-top: -50px;
+    float: left;
+    background-color: #f5f6fa;
+    height: 520px;
+    z-index: -999;
+}
+.everything_text{
+    margin-top: 150px;
+    width: 50%;
+    float: left;
+    padding: 30px 0 30px;
+}
+.everything_text i{
+    font-size: 12px;
+    color: #00fff0;
+    margin: 15px 10px 8px 500px; 
+}
+.everything_text h1{
+    text-align: right;
+}
+.everything_text h5{
+    color: #000000;
+    font-size: 17px;
+}
+.everything_text p{
+    text-align: right;
+    color: #97a4be;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 150px;
+    margin-top: 10px;
+    
+}
+.everything_bar{
+    width: 50%;
+    float: left;
+    padding: 30px 0 30px;
+}
+.everything_bar img{
+    display: block;
+    margin: 0 auto;
+    
+}
+.video_part{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+}
+.video_sec{
+    width: 100%;
+    float: left;
+}
+iframe {
+	width: 50%;
+	height: 450px;
+	margin: 25px 0 25px 25%;
+}
+.video_sec p{
+    width: 50%;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.wordlmap-sec{
+    width: 100%;
+    height: 650px;
+    background-color: #FFFFFF;
+}
+.worldmap img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding: 50px;
+}
+.head_text{
+    position: relative;
+    display: block;
+    margin: 0;
+}
+.head_text h1{
+    font-size: 30px;
+    padding: 50px;
+}
